@@ -56,8 +56,8 @@ Machines used for testing :
     Interface 4 CENTOS CORE - 192.168.4.100 Static Ip
 I used **UBUNTU 20.10** has my firewall and added 4 interfaces.The 4 interfaces are running on CENT OS LINUX with specified ip addresses. </br> 
 
-if i ping from 192.168.1.100 to 192.168.2.100 </br>
-The 192.168.1.100 sends a packet from interface 1 and the firewall(ubuntu) will unpack the ip header and check for the destination ip address and forward it to the specific Interface using the firewall. I have disabled the default ip forwarding in my **UBUNTU MACHINE**. 
+If i ping from 192.168.1.100 to 192.168.2.100 </br>
+The 192.168.1.100 sends a packet from interface 1 and the firewall(ubuntu) will unpack the ip header and check for the destination ip address and forward it to the specific Interface. I have disabled the default ip forwarding in my **UBUNTU MACHINE** using 'sysctl -w net.all.forwarding = 0'. 
 
 
 # How to run?
