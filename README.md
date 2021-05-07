@@ -42,9 +42,10 @@ The 192.168.1.100 sends a packet from interface 1 and the firewall(ubuntu) will 
 1 Runing the script is simple, you must have root privelages. Run the `main.py` file to begin the firewall. </br>
 2 All the logs will be saved in a [Log file](firewall.log).  </br>
 3 Requirements to run this Firewall. </br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Ubuntu 20.10 Virtual Machine.     </br>
-    - Four Interfaces with IP configured.        </br>
-    - Python 3.8.2      </br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Ubuntu 20.10 Virtual Machine.     </br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Four Interfaces with IP configured.        </br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Python 3.8.2      </br>
 4 Dependencies.      </br>
-    - pip install pycryptodome      </br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - pip install pycryptodome      </br>
 
