@@ -68,3 +68,4 @@ The 192.168.1.100 sends a packet from interface 1 and the firewall(ubuntu) will 
 3 Dependencies.      </br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - pip install pycryptodome      </br>
 
+[![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jadhusan24/) 
