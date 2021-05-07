@@ -71,6 +71,10 @@ The 192.168.1.100 sends a packet from interface 1 and the firewall(ubuntu) will 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Four Interfaces with IP configured.       
 3. Dependencies.      
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - pip install pycryptodome      
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - pip3 install psutil
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - pip3 install csv
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - pip3 install threading
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - pip3 install logging
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - pip3 install datetime
 
 [![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jadhusan24/) 
