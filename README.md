@@ -63,12 +63,12 @@ The 192.168.1.100 sends a packet from interface 1 and the firewall(ubuntu) will 
 ![Concept](./screenshots/firewall.jpg)
 
 # How to run?
-1 Runing the script is simple, you must have root privelages. Run the `main.py` file to begin the firewall. </br>
-2 Requirements to run this Firewall. </br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Python 3.9.2      </br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Ubuntu 20.10 Virtual Machine.     </br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Four Interfaces with IP configured.        </br>
-3 Dependencies.      </br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - pip install pycryptodome      </br>
+1. Runing the script is simple, you must have root privelages. Run the `main.py` file to begin the firewall. 
+2. Requirements to run this Firewall. 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Python 3.9.2    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Ubuntu 20.10 Virtual Machine.     
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Four Interfaces with IP configured.       
+3. Dependencies.      
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - pip install pycryptodome      
 
 [![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jadhusan24/) 
