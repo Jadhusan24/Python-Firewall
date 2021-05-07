@@ -17,6 +17,7 @@ By default all the traffic allowed!. Empty File makes DEFAULT ALLOWS TRAFFIC.  <
 Deny packet Based on Source 192.168.1.100:0 to Destination 192.168.2.100:0 </br>
 
 **Rule File**
+
 We'll use a [CSV](./imports/Rules.csv) file as our rules table.
 
 ![Example rule table](./screenshots/examplerules.jpg)
