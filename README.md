@@ -8,9 +8,8 @@ Packet filtering is a firewall technique used to control network access by monit
 Firewalls are configured using simple `if then` rules. In a packet filtering firewall, a rule says: ``if a pattern based on packet source, destination, protocol, or service is a match THEN take the specified action``. Since there are many rules involved, the order of the rules matters. <b>A LOT!<b>
 
 Traffic is verified against a rules table in order, ``top to bottom``. Therefore, you must be careful as to how you define your rules and in which order should you place them. Its best to begin very strict and lay off as you go down the table.
--------------------
+
 **Rule Syntax**
--------------------
 
 By default all the traffic allowed!. Empty File makes DEFAULT ALLOWS TRAFFIC.  </br>
 ``DENY <SRC_IP> <SRC_PORT> <DST_IP> <DST_PORT>`` </br>
@@ -19,7 +18,19 @@ Deny packet Based on Source 192.168.1.100:0 to Destination 192.168.2.100:0 </br>
 
 ![Example rule table](./screenshots/examplerules.jpg)
 
+**Rule File**
 We'll use a [CSV](./Rules.csv) file as our rules table.
+
+# Firewall Log
+
+The logging feature documents how the firewall deals with traffic types.
+All the logs will be saved in a [Log file](firewall.log)
+
+**Traffic Logs**
+![Traffic Logs](./screenshots/log1.jpg)
+
+**Error Logs**
+![Error Logs](./screenshots/log2.jpg)
 
 # How this firewall works?
 
@@ -48,14 +59,10 @@ The 192.168.1.100 sends a packet from interface 1 and the firewall(ubuntu) will 
 
 # How to run?
 1 Runing the script is simple, you must have root privelages. Run the `main.py` file to begin the firewall. </br>
-
-2 All the logs will be saved in a [Log file](firewall.log).  </br>
-
-3 Requirements to run this Firewall. </br>
+2 Requirements to run this Firewall. </br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Ubuntu 20.10 Virtual Machine.     </br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Four Interfaces with IP configured.        </br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Python 3.8.2      </br>
-
-4 Dependencies.      </br>
+3 Dependencies.      </br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - pip install pycryptodome      </br>
 
