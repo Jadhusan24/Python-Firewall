@@ -8,15 +8,14 @@ Packet filtering is a firewall technique used to control network access by monit
 Firewalls are configured using simple `if then` rules. In a packet filtering firewall, a rule says: ``if a pattern based on packet source, destination, protocol, or service is a match THEN take the specified action``. Since there are many rules involved, the order of the rules matters. <b>A LOT!<b>
 
 Traffic is verified against a rules table in order, ``top to bottom``. Therefore, you must be careful as to how you define your rules and in which order should you place them. Its best to begin very strict and lay off as you go down the table.
-
+-------------------
 **Rule Syntax**
+-------------------
 
 By default all the traffic allowed!. Empty File makes DEFAULT ALLOWS TRAFFIC.  </br>
 ``DENY <SRC_IP> <SRC_PORT> <DST_IP> <DST_PORT>`` </br>
 ``192.168.1.100 0 192.168.2.100 0`` </br>
 Deny packet Based on Source 192.168.1.100:0 to Destination 192.168.2.100:0 </br>
-
-
 
 ![Example rule table](./screenshots/examplerules.jpg)
 
