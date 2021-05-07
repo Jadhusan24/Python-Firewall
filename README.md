@@ -9,6 +9,15 @@ Firewalls are configured using simple `if then` rules. In a packet filtering fir
 
 Traffic is verified against a rules table in order, ``top to bottom``. Therefore, you must be careful as to how you define your rules and in which order should you place them. Its best to begin very strict and lay off as you go down the table.
 
+**Rule Syntax**
+
+By default all the traffic allowed!. Empty File makes DEFAULT ALLOWS TRAFFIC. 
+``DENY <SRC_IP> <SRC_PORT> <DST_IP> <DST_PORT>``
+``192.168.1.100 0 192.168.2.100 0``
+Deny packet Based on Source 192.168.1.100:0 to Destination 192.168.2.100:0 </br>
+
+
+
 ![Example rule table](examplerules.png)
 
 We'll use a [CSV](./Rules.csv) file as our rules table.
