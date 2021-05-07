@@ -11,14 +11,14 @@ Traffic is verified against a rules table in order, ``top to bottom``. Therefore
 
 **Rule Syntax**
 
-By default all the traffic allowed!. Empty File makes DEFAULT ALLOWS TRAFFIC. 
-``DENY <SRC_IP> <SRC_PORT> <DST_IP> <DST_PORT>``
-``192.168.1.100 0 192.168.2.100 0``
+By default all the traffic allowed!. Empty File makes DEFAULT ALLOWS TRAFFIC.  </br>
+``DENY <SRC_IP> <SRC_PORT> <DST_IP> <DST_PORT>`` </br>
+``192.168.1.100 0 192.168.2.100 0`` </br>
 Deny packet Based on Source 192.168.1.100:0 to Destination 192.168.2.100:0 </br>
 
 
 
-![Example rule table](examplerules.png)
+![Example rule table](./screenshots/examplerules.jpg)
 
 We'll use a [CSV](./Rules.csv) file as our rules table.
 
