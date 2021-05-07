@@ -27,9 +27,11 @@ The logging feature documents how the firewall deals with traffic types.
 All the logs will be saved in a [Log file](firewall.log)
 
 **Traffic Logs**
+
 ![Traffic Logs](./screenshots/log1.jpg)
 
 **Error Logs**
+
 ![Error Logs](./screenshots/log2.jpg)
 
 # How this firewall works?
