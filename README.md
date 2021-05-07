@@ -58,7 +58,9 @@ I used **UBUNTU 20.10** has my firewall and added 4 interfaces.The 4 interfaces 
 
 If i ping from 192.168.1.100 to 192.168.2.100 </br>
 The 192.168.1.100 sends a packet from interface 1 and the firewall(ubuntu) will unpack the ip header and check for the destination ip address and forward it to the specific Interface. I have disabled the default ip forwarding in my **UBUNTU MACHINE** using 'sysctl -w net.all.forwarding = 0'. 
+**Concept**
 
+![Concept](./screenshots/firewall.jpg)
 
 # How to run?
 1 Runing the script is simple, you must have root privelages. Run the `main.py` file to begin the firewall. </br>
