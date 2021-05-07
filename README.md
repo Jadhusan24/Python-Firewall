@@ -62,7 +62,7 @@ The 192.168.1.100 sends a packet from interface 1 and the firewall(ubuntu) will 
 # How to run?
 1 Runing the script is simple, you must have root privelages. Run the `main.py` file to begin the firewall. </br>
 2 Requirements to run this Firewall. </br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Python 3.8.2      </br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Python 3.9.2      </br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Ubuntu 20.10 Virtual Machine.     </br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Four Interfaces with IP configured.        </br>
 3 Dependencies.      </br>
