@@ -27,11 +27,11 @@ We'll use a [CSV](./imports/Rules.csv) file as our rules table.
 The logging feature documents how the firewall deals with traffic types.
 All the logs will be saved in a [Log file](firewall.log)
 
-**Traffic Logs**
+**Allow Traffic Logs**
 
 ![Traffic Logs](./screenshots/log1.jpg)
 
-**Error Logs**
+**Deny Traffic Logs**
 
 ![Error Logs](./screenshots/log2.jpg)
 
