@@ -9,7 +9,7 @@ import logging
 
 
 # Custom imports
-from imports.protocols import ethernet_frame, ipv4_packet, icmp_packet, udp_packet, tcp_packe
+from imports.protocols import ethernet_frame, ipv4_packet, icmp_packet, udp_packet, tcp_packet
 from imports.helper import get_interfaces, pprint, compare_rules, PROTOCOLS
 from imports.validator import validate_with_route_table
 
