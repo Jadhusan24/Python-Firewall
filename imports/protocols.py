@@ -76,7 +76,6 @@ def ipv6_packet(data):
     ipv6_first_word, payload_legth, protocol, hoplimit = struct.unpack(">IHBB", data[0:8])
     src_ip = socket.inet_ntop(socket.AF_INET6, data[8:24])
     dst_ip = socket.inet_ntop(socket.AF_INET6, data[24:40])
-
     version = ipv6_first_word >> 28
     traffic_class = int(ipv6_first_word >> 16) & 4095
     flow_label = int(ipv6_first_word) & 65535
