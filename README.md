@@ -13,9 +13,15 @@ Traffic is verified against a rules table in order, ``top to bottom``. Therefore
 
 **Rule Syntax**
 
-By default all the traffic allowed!. Empty File makes DEFAULT ALLOWS TRAFFIC.  </br>
+**NOTE** By default all the traffic Denied!. Empty File makes DEFAULT DENY TRAFFIC.  </br>
+
+**To Allow** 
+``ALLOW <SRC_IP> <SRC_PORT> <DST_IP> <DST_PORT>`` </br>
+``allow,192.168.1.100, 0, 192.168.2.100, 0`` </br>
+**To DENY** 
 ``DENY <SRC_IP> <SRC_PORT> <DST_IP> <DST_PORT>`` </br>
-``192.168.1.100, 0, 192.168.2.100, 0`` </br>
+``deny, 192.168.1.100, 0, 192.168.2.100, 0`` </br>
+
 Deny packet Based on Source 192.168.1.100:0 to Destination 192.168.2.100:0 </br>
 
 **Rule File**
