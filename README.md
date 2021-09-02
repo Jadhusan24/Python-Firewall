@@ -15,10 +15,10 @@ Traffic is verified against a rules table in order, ``top to bottom``. Therefore
 
 **NOTE** : By default all the traffic Denied!. Empty File makes DEFAULT DENY TRAFFIC.  </br>
 
-**To Allow** 
+**To Allow** </br>
 ``ALLOW <SRC_IP> <SRC_PORT> <DST_IP> <DST_PORT>`` </br>
 ``allow,192.168.1.100, 0, 192.168.2.100, 0`` </br>
-**To DENY** 
+**To DENY** </br>
 ``DENY <SRC_IP> <SRC_PORT> <DST_IP> <DST_PORT>`` </br>
 ``deny, 192.168.1.100, 0, 192.168.2.100, 0`` </br>
 
