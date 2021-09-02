@@ -13,7 +13,7 @@ Traffic is verified against a rules table in order, ``top to bottom``. Therefore
 
 **Rule Syntax**
 
-**NOTE** By default all the traffic Denied!. Empty File makes DEFAULT DENY TRAFFIC.  </br>
+**NOTE** : By default all the traffic Denied!. Empty File makes DEFAULT DENY TRAFFIC.  </br>
 
 **To Allow** 
 ``ALLOW <SRC_IP> <SRC_PORT> <DST_IP> <DST_PORT>`` </br>
