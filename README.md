@@ -17,7 +17,7 @@ Traffic is verified against a rules table in order, ``top to bottom``. Therefore
 
 **To ALLOW** </br>
 ``ALLOW <SRC_IP> <SRC_PORT> <DST_IP> <DST_PORT>`` </br>
-command : ``allow,192.168.1.100, 0, 192.168.2.100, 0`` </br>
+command : ``allow, 192.168.1.100, 0, 192.168.2.100, 0`` </br>
 **To DENY** </br>
 ``DENY <SRC_IP> <SRC_PORT> <DST_IP> <DST_PORT>`` </br>
 command : ``deny, 192.168.1.100, 0, 192.168.2.100, 0`` </br>
