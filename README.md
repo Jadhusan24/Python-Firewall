@@ -3,7 +3,7 @@ Python based Packet Filtering Firewall Application.
 
 Packet filtering is a firewall technique used to control network access by monitoring outgoing and incoming packets and allowing them to pass or halt based on the source and destination Internet Protocol (IP) addresses, protocols and ports 
 
-
+[![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jadhusan24/) 
 
 # Firewall rules
 
@@ -65,9 +65,10 @@ Machines used for testing :
 I used **UBUNTU 20.10** has my firewall and added 4 interfaces.The 4 interfaces are running on CENT OS LINUX with specified ip addresses. </br> 
 
 If i ping from 192.168.1.100 to 192.168.2.100 </br>
-The 192.168.1.100 sends a packet from interface 1 and the firewall(ubuntu) will unpack the ip header and check for the destination ip address and forward it to the specific Interface. I have disabled the default ip forwarding in my **UBUNTU MACHINE** using 'sysctl -w net.all.forwarding = 0'. 
-**Concept**
+The 192.168.1.100 sends a packet from interface 1 and the firewall(ubuntu) will unpack the ip header and check for the destination ip address and forward it to the specific Interface. I have disabled the default ip forwarding in my **UBUNTU MACHINE** using 'sysctl -w net.all.forwarding = 0'. Furthermore, I tested by blocking the ip address from interface 1 (ip address) to interface 2 (ip address) icmp ping traffic and it successfully **Denied**.   </br>
 
+
+**Concept**
 ![Concept](./screenshots/firewall.jpg)
 
 # How to run?
@@ -75,7 +76,8 @@ The 192.168.1.100 sends a packet from interface 1 and the firewall(ubuntu) will 
 2. Requirements to run this Firewall.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Python 3.9.2    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Ubuntu 20.10 Virtual Machine.     
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Ubuntu 20.10 Virtual Machine.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Extra Virtual Machines for testing.
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Four Interfaces with IP configured.       
 3. Dependencies.      
 
@@ -84,5 +86,3 @@ The 192.168.1.100 sends a packet from interface 1 and the firewall(ubuntu) will 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - pip3 install threading     
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - pip3 install logging     
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - pip3 install datetime     
-
-[![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jadhusan24/) 
