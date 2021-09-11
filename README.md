@@ -86,3 +86,4 @@ The 192.168.1.100 sends a packet from interface 1 and the firewall(ubuntu) will 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - pip3 install threading     
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - pip3 install logging     
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - pip3 install datetime     
+
