@@ -69,7 +69,7 @@ The 192.168.1.100 sends a packet from interface 1 and the firewall(ubuntu) will 
 
 
 **Concept**
-![Concept](./screenshots/firewall.jpg)
+![Concept](./screenshots/topology.jpg)
 
 # How to run?
 1. Runing the script is simple, you must have root privelages. Run the `main.py` file to begin the firewall. 
